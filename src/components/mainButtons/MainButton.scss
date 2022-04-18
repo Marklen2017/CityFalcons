@@ -1,0 +1,31 @@
+$white-two: #ffffff;
+$profiles-four: #eeeeee;
+
+.wrapperButton {
+  width: 100px;
+  height: 40px;
+  background-color: $white-two;
+  border: 1px $profiles-four solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.children {
+  margin: 11px 10px 11px 13px;
+}
+
+.buttonsText {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #292929;
+}
